@@ -1,8 +1,11 @@
 import React from 'react'
 
-import Header from './htmlparts/Header';
-import StartPage from './htmlparts/StartPage'
-import About from './htmlparts/About';
+import Header from './components/Header';
+import StartPage from './components/StartPage'
+import About from './components/About';
+import Examples from './components/Examples';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
 
 
 import {
@@ -10,6 +13,7 @@ import {
     Route,
     Routes
   } from "react-router-dom";
+
 
 
 
@@ -22,6 +26,9 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<StartPage></StartPage>}></Route>
                     <Route path="/about" element={<About></About>}></Route>
+                    <Route path="/examples" element={<Examples></Examples>}></Route>
+                    <Route path="/singup" element={<SignUp></SignUp>}></Route>
+                    <Route path="/signin" element={<SignIn></SignIn>}></Route>
                 </Routes>
         </Router>
     </>
