@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url("/src/img/1.jpeg") no-repeat;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.maintext {
+    font-size: 64px;
+    color: aliceblue;
+    font-family: Calibri;
+    text-shadow: 8px 8px 4px aliceblue;
+}
+
+
+.header {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress {
+    margin-top: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.header ul {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    margin: 10px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    list-style: none;
+    opacity: 0.7;
+}
+
+.header li {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.headertext0 {
+    background-color: darkcyan;
+}
+
+
+.headertext1 {
+  background-color: chartreuse; 
+}
+
+
+
+.name {
+    color: aliceblue;
+    font-size: 50px;
+    font-style: italic;
+    width: 800px;
+    margin-top: 400px;
+    margin-left: 30px;
+}
+
+.name-right {
+    text-align: right;
+}
+
+.name-center {
+    text-align: center;
+}
+
+.name-left {
+    text-align: left;
+}
+
+
+.Pep {
+    margin-top: 200px;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+}
+
+.photo {
+    width: 50%;
+    height: 100%;
+}
+
+.card-text {
+    width: 30%;
+    height: 30%;
+    padding: auto;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+}
