@@ -1,5 +1,7 @@
 import React from 'react'
 
+import {Link} from "react-router-dom";
+
 export default function Header() {
     return (
         <>
@@ -8,9 +10,7 @@ export default function Header() {
                 <div className="adress">
                 Украина, г. Ровно, улица Короленко, 1
                 </div>
-                <div className="maintext">
-                    OASIS
-                </div>
+                <Link className="maintext" to="/">OASIS</Link>
             </div>
             <div>
                 <ul>
@@ -23,7 +23,7 @@ export default function Header() {
                 </ul>
                 <ul>
                     <li className="headertext1">
-                        о нас
+                        <Link to="/about">о нас</Link>
                     </li>
                     <li className="headertext1">
                         отзывы

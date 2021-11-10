@@ -5,7 +5,7 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url("/src/img/1.jpeg") no-repeat;
+    /* background: url("1.jpeg") no-repeat; */
 }
 
 code {
@@ -15,7 +15,7 @@ code {
 
 .maintext {
     font-size: 64px;
-    color: aliceblue;
+    color: silver;
     font-family: Calibri;
     text-shadow: 8px 8px 4px aliceblue;
 }
@@ -64,6 +64,14 @@ code {
 }
 
 
+.startimg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    display: flex; */
+    /* border-radius: 50%; */
+}
 
 .name {
     color: aliceblue;
